@@ -1,0 +1,149 @@
+*{
+    box-sizing:border-box;
+    /* border: 1px solid red; */
+    font-family: Arial, helvetica, sans-serif;
+}
+.navbar{
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.navbar{
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.navbar a{
+    vertical-align: middle;
+
+    text-decoration:  none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 3%;
+}
+.btn{
+    background-color:  white;
+    border: none;
+    padding: 0.7% 1%;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+btn:hover{
+    background-color: #002970;
+}
+/wallet/
+.wallet{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 1%;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #c01010, #c01010);
+}
+
+.hero h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.search {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search input,
+.search button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.search input {
+    width: 150px;
+}
+
+.search button {
+    background-color: #ff4d4d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #e6000c;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.trending-offers {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.trending-offers h2 {
+    font-size: 1.5em;
+    color: #ff4d5c;
+}
+
+.trending-offers a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4d5c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.trending-offers a:hover {
+    background-color: #e60000;
+}
+.sec2{
+    background-color: #00baf2;
+}
+.head2{
+    color: white;
+    font-size: 36px;
+    margin-top: 3%;
+    padding-top: 4%;
+    padding-left: 5%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 6%;
+    padding-bottom: 7%;
+
+}
+
+.icons a p{
+    /* text-decoration: none; */
+    color: white;
+    margin-top: 4%;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 60%;
+
+}
+
+.icons a{
+    text-decoration: none;
+
+}
